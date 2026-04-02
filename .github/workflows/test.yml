@@ -28,15 +28,4 @@ jobs:
       - run: |
           npm install
           npm run build
-      - name: Comment on pull request
-        if: ${{ github.event_name == 'pull_request' }}
-        uses: actions/github-script@v8
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: 'Pull request has passed the tests. Please wait for the maintainers to review.'
-            })
+          echo "Build passed."

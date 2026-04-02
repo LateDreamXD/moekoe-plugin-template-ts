@@ -1,5 +1,5 @@
 const hello = (name: string) => {
-	console.log(`hello ${name}`);
+	new Notification(`hello ${name}`);
 }
 
 const init = () => {
