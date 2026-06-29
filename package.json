@@ -11,10 +11,11 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "@latedream/moekoe-plugin-utils": "1.0.0-beta.2",
-    "@types/node": "^25.5.0",
-    "chrome-types": "^0.1.425",
-    "tsdown": "^0.21.7",
-    "typescript": "^6.0.2"
+    "@latedream/moekoe-plugin-utils": "^1.0.0-rc.1",
+    "@latedream/moekoe-types": "^1.6.6-fix",
+    "@types/node": "^26.0.1",
+    "chrome-types": "^0.1.431",
+    "tsdown": "^0.22.3",
+    "typescript": "^6.0.3"
   }
 }
