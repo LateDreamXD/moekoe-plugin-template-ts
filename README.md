@@ -3,7 +3,7 @@
 
 ### 使用本模板编写插件你将获得以下优势：
 - [x] 自动生成 manifest.json
-- [x] 完整的 Typescript 类型定义文件 ([chrome-types](https://npmx.dev/package/chrome-types), [@latedream/moekoe-plugin-utils](https://npmx.dev/package/@latedream/moekoe-plugin-utils))
+- [x] 完整的 Typescript 类型定义文件 ([chrome-types](https://npmx.dev/package/chrome-types), [@latedream/moekoe-types](https://npmx.dev/package/@latedream/moekoe-types))
 - [x] Node.js 生态系统支持
 - [x] 支持 public 目录
 - [x] 支持 Github Actions 测试构建和发布到[插件市场](https://github.com/MoeKoeMusic/MoeKoeMusic-Plugins)
