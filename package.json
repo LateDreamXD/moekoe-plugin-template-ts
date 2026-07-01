@@ -11,8 +11,8 @@
   "author": "",
   "license": "",
   "devDependencies": {
-    "@latedream/moekoe-plugin-utils": "^1.0.0-rc.1",
-    "@latedream/moekoe-types": "^1.6.6-fix",
+    "@latedream/moekoe-plugin-utils": "1.0.0-rc.1",
+    "@latedream/moekoe-types": "^1.6.7",
     "@types/node": "^26.0.1",
     "chrome-types": "^0.1.431",
     "tsdown": "^0.22.3",
